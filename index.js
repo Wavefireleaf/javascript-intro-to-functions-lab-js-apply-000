@@ -7,6 +7,7 @@ function whisper(string) {
 }
 
 function logShout(string) {
+<<<<<<< HEAD
   console.log(string.toUpperCase());
 }
 
@@ -28,3 +29,7 @@ function sayHiToGrandma(string) {
 
 
   
+=======
+  const spy = 'console.log()'.toUpperCase;
+}
+>>>>>>> 14437957ee0f7c404fa37ed6e33a8843c722a31c
